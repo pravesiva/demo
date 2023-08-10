@@ -1,0 +1,172 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="menu.css">
+  <link
+	href="https://fonts.googleapis.com/css2?
+	family=Ubuntu+Mono&display=swap"
+	rel="stylesheet">
+
+<title>Food website</title>
+</head>
+<body> 
+
+  <header>
+	
+		<h1  id="top">Online</h1>
+		<h1 id="top1">FoodShop</h1>
+	</header>
+    <nav id="navbar">
+      <img src="https://www.freepnglogos.com/uploads/food-png/food-grass-fed-beef-foodservice-products-grass-run-farms-4.png">
+      <ul id="navcontent">
+        <li><a href="Home.html">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="Menu.html">Menu</a></li>
+        <li><a href="ContactUs.html">ContactUs</a></li>
+      </ul>
+    </nav>
+  
+<h1>RECOMMENDED FOR YOU</h1>
+<div class="row1">
+  <div class="column1">
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFb-QOETAw_2smnhPtCqsh8A1KTeBnpYEBTQ&usqp=CAU" alt="pic1" style="width:70%">  
+ <br>
+  <input type="checkbox" id="Pizza"  value="food">
+  <label for="pizza"> PIZZA</label><br>
+  <span>₹110</span>
+  <a href="#" id="buynow1">Buy Now</a>
+  </div>
+  <div class="column1">
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFHbADpfjb7VzHUm-q5DkIups4UiYox8Hszw&usqp=CAU" alt="pic2" style="width:70%"> 
+  <br>
+  <input type="checkbox" id="Momos"  value="food">
+  <label for="momos"> MOMOS</label><br>
+  <span>₹80</span>
+   <a href="#" id="buynow2">Buy Now</a>
+  </div> 
+  <div class="column1">
+   <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlJ7MA6EfBZcSJgFwZ_a3BagANJ5HASTf5BQ&usqp=CAU" alt="pic3" style="width:72%"> 
+   <br>
+   <input type="checkbox" id="Briyani"  value="food">
+  <label for="briyani"> BRIYANI</label><br>
+   <div> 
+   <span>₹100</span>
+   <a href="#" id="buynow3">Buy Now</a>
+   </div>
+   </div>
+  
+  <div class="row2">
+  
+   <div class="column2">
+   <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzbgGzt1TyY58CvsLi9OFki9_e3ulWRNHDIw&usqp=CAU " alt="pic4" style="width:70%"> 
+   <br>
+   <input type="checkbox" id="shawarma"  value="food">
+  <label for="shawarma">SHAWARMA</label><br>
+   <span>₹120</span>
+   <a href="#" id="buynow4">Buy Now4</a>
+  </div>
+   
+   <div class="column2">
+   <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8XXt1lX1xAa5sguDj9QtlZUsq9bLDPvJP8Q&usqp=CAU " alt="pic5" style="width:72%"> 
+   <br>
+   <input type="checkbox" id="ff"  value="food">
+  <label for="ff"> FISH FINGERS</label><br>
+   <span>₹140</span>
+   <a href="#" id="buynow5">Buy Now</a>
+  </div>
+  
+  <div class="column2">
+   <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOJQPVvJYCpxAJf7aORzAA1pzLrfnTSMJKAA&usqp=CAU" alt="pic6" style="width:75%"> 
+   <br>
+   <input type="checkbox" id="pasta"  value="food">
+  <label for="pasta"> PASTA</label><br>
+   <span>₹130</span>
+   <a href="#" id="buynow6">Buy Now</a>
+  </div>
+  
+</div>
+</div>
+
+<div id="buyNowModal" class="modal">
+  <!-- Modal content -->
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <p>Let's Celebrate</p> 
+    <form action="/action_page.php">
+    <label for="yname">Your Name:</label>
+    <input type="text" id="yname" name="yname"><br><br>
+    <label for="email">Email Address:</label>
+    <input type="email" id="email" name="email"><br><br>
+    <label for="address">Address:</label>
+    <input type="text" id="address" name="address"><br><br>
+    <label for="quantity">Quantity</label>
+    
+    <select name="quantity" id="quantity">
+    <option value="one">1</option>
+    <option value="two">2</option>
+    <option value="three">3</option>
+    </select><br><br>
+     
+     <input type="checkbox" id="statement" value="statement">
+     <label for="statement">Agree to terms and condition</label><br><br>
+    <input type="submit" value="Place Order">
+  </div>
+</div>
+<script>
+// Get the modal
+var modal = document.getElementById("buyNowModal");
+
+// Get the button that opens the modal
+var btn1 = document.getElementById("buynow1");
+var btn2 = document.getElementById("buynow2");
+var btn3 = document.getElementById("buynow3");
+var btn4 = document.getElementById("buynow4");
+var btn5 = document.getElementById("buynow5");
+var btn6 = document.getElementById("buynow6");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks the button, open the modal 
+btn1.onclick = function() {
+  modal.style.display = "block";
+}
+
+btn2.onclick = function() {
+  modal.style.display = "block";
+}
+
+btn3.onclick = function() {
+  modal.style.display = "block";
+}
+
+btn4.onclick = function() {
+  modal.style.display = "block";
+}
+
+btn5.onclick = function() {
+  modal.style.display = "block";
+}
+
+btn6.onclick = function() {
+  modal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  modal.style.display = "none";
+}
+
+
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>
+
+</body>
+</html>
+
+

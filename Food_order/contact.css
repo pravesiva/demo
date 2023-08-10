@@ -1,0 +1,158 @@
+* {box-sizing: border-box;
+                
+}
+#top{
+  color:rgb(190, 72, 72);
+  text-align:center;
+  font-size:46px;
+  
+  
+}
+#top1{
+  text-align:center;
+  color:rgb(230, 20, 12);
+  font-size:21px;
+  font-family: 'Ubuntu Mono', monospace;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: center;
+}
+.header{
+    padding: 20px;
+    border-radius: 5px;
+    width: 400px;
+     font-size: 20px;
+  font-family: Arial, sans-serif;
+  margin:auto;
+  justify-content: center;
+  align-items: center;
+  height: 125vh;
+  }
+
+h3{
+  color: rgb(9, 10, 97);
+  font-family: times roman;
+  text-align: center;
+  font-size: 30px;
+  margin: auto;
+
+  
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  
+    padding: 30px;
+    border-radius: 20px;
+    width: 400px;
+    box-shadow: 10px 10px 10px rgba(247, 236, 236, 0.1);
+  background-color: #cbd1f3;
+  font-size: 20px;
+  font-family: Arial, sans-serif;
+  margin-top: 5%;
+  justify-content: center;
+  align-items: center;
+  height: 128vh;
+  
+}
+
+h1{
+  color: #f13232;
+  text-align: center;
+      margin:0;
+      }
+h2{
+  color: #141010;
+  font-family: courier new;
+      text-align: center;
+      font-weight: 5%;
+      margin : 0;
+     
+    }
+    .body{
+      text-align:center;
+        height: 12vh;
+        width: 1341px;
+            background:#af9292; 
+              
+      }
+    
+				#navbar img{
+    display:block;
+    width: 70px;
+    height:70px;
+    margin:auto;
+    margin-bottom: 1px;
+}
+
+/*Navbar Functionality*/
+#navbar{
+      display:flex;
+      flex-direction: column;
+      margin-top:10px;
+      border: 2px solid #1a1717;
+		  border-radius: 25px;
+		  height: 125px;
+		  width:100%;
+		  margin: 0%;
+		  background: #666060;
+	
+}
+
+/*Navbar content functionality*/
+#navcontent{
+  margin: 0%;
+    display: flex;
+    justify-content: center;
+    font-size: larger;
+}
+
+/*Navbar content styling*/
+ul li{
+    list-style: none;
+    margin: 15px;
+    border-radius: 20px;
+}
+ul li a{
+    padding: 1px;
+    color:white;
+    text-decoration: none;
+    border-radius:10px;
+}
+ul li a:hover{
+    background-color: rgb(85, 51, 180);
+    border-radius: 10px;
+}
+
+		
+		.inner-container{
+		  border: 2px solid #1a1717;
+		  border-radius: 25px;
+		  height: 125px;
+		  width:1340px;
+		  margin: 0%;
+		  background: #666060;
+		  
+		  
+		}
+		
