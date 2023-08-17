@@ -9,25 +9,22 @@
 		</head>
 		<body>
 		  <header>
-	
 		<h1  id="top">Online</h1>
 		<h1 id="top1">FoodShop</h1>
-	</header>
-  
-				<nav id="navbar">
-					<img src="https://www.freepnglogos.com/uploads/food-png/food-grass-fed-beef-foodservice-products-grass-run-farms-4.png">
-					<ul id="navcontent">
-            <li><a href="Home.html">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="Menu.html">Menu</a></li>
-            <li><a href="ContactUs.html">ContactUs</a></li>
-      
-					</ul>
-				</nav>
-						<div class="header">
-                            <h3>Contact Us</h3>
-                        <div class="container">
-                      <form action="/action_page.php" id="form" >
+	        </header>
+		<nav id="navbar">
+		<img src="https://www.freepnglogos.com/uploads/food-png/food-grass-fed-beef-foodservice-products-grass-run-farms-4.png">
+		<ul id="navcontent">
+               <li><a href="Home.html">Home</a></li>
+               <li><a href="#">About</a></li>
+               <li><a href="Menu.html">Menu</a></li>
+               <li><a href="ContactUs.html">ContactUs</a></li>
+      	       </ul>
+		</nav>
+		<div class="header">
+                <h3>Contact Us</h3>
+                <div class="container">
+                <form action="/action_page.php" id="form" >
                       <label for="Query">Type of Query </label>
                         <select id="Query"  name="Query">
                         <option value="select" >Select</option>
@@ -35,26 +32,21 @@
                           <option value="Payment Failed">payment failed</option>
                           <option value="FeedBack">feedback</option>
                         </select>
-                    
                         <label for="name">Name</label>
                         <input type="text" id="fname" name="firstname" placeholder="Enter Your name.." required>
-                    
                         <label for="email">Email-Id</label>
                         <input type="text" id="email" name="Email-Id" placeholder="Enter your email.." required>
                          <label for="phoneNumber">Phone Number</label>
                         <input type="text" id="phno" name="phno" placeholder="Enter your phone no.."  required>
-                         
-                         
-                      <label for="yes_no_radio">Are you a member of Online Food Shop:</label>
-                    <p>
-                    <input type="radio" name="yes_no" checked>Yes</input>
-                    </p>
-                    <p>
-                    <input type="radio" name="yes_no">No</input>
-                    </p> 
+                       <label for="yes_no_radio">Are you a member of Online Food Shop:</label>
+                        <p>
+                       <input type="radio" name="yes_no" checked>Yes</input>
+                       </p>
+                       <p>
+                      <input type="radio" name="yes_no">No</input>
+                      </p> 
                         <label for="subject">Ellaborate your query</label>
                         <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px" required></textarea>
-                    
                         <input type="submit" onclick="clicked(event)"/>
                       </form>                 
       <script>
@@ -62,16 +54,14 @@
         {
 
           var ask = window.confirm("Are you sure you want to submit this form?");
-    if (ask) {
-        window.alert("the form was submitted successfully.");
- }
-}
-
+          if (ask) {
+          window.alert("the form was submitted successfully.");
+           }
+           }
         </script>
-                    </div>
-                    
-                        </div>
-				</div>
-			</div>
-		</body>
-		</html>
+         </div>     
+         </div>
+	</div>
+      </div>
+</body>
+</html>
